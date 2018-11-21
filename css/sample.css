@@ -1,0 +1,63 @@
+.answer1 {
+  width: auto;
+  height: 24px;
+}
+#koumoku1 {
+  float: left;
+}
+.koumoku1-background {
+  float: left;
+  height: 24px;
+}
+.count1 {
+  float: left;
+  padding-left: 10px;
+}
+
+.answer2 {
+  width: auto;
+  height: 24px;
+}
+#koumoku2 {
+  float: left;
+}
+.koumoku2-background {
+  float: left;
+  height: 24px;
+}
+.count2 {
+  float: left;
+  padding-left: 10px;
+}
+.answer3 {
+  width: auto;
+  height: 24px;
+}
+#koumoku3 {
+  float: left;
+}
+.koumoku3-background {
+  float: left;
+  height: 24px;
+}
+.count3 {
+  float: left;
+  padding-left: 10px;
+}
+
+.item {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #668ad8; /*ボタン色*/
+  color: #fff;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+.item:active {
+  /*ボタンを押したとき*/
+  -ms-transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px); /*下に動く*/
+  border-bottom: none; /*線を消す*/
+}
